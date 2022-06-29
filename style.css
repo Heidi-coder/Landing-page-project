@@ -1,14 +1,37 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
     display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+
+.header a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .top-sign-up {
-    displaly: flex;
+    display: flex;
     flex: 1;
 }
 
@@ -29,4 +52,14 @@ body {
 
 .footer {
     display: flex;
+}
+
+.info-box img {
+    width: 200px;
+    height: auto;
+}
+
+.top-sign-up img {
+    width: 300px;
+    height: auto;
 }
