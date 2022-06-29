@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.top-sign-up {
+    displaly: flex;
+    flex: 1;
+}
+
+.info-box {
+    display: flex;
+    flex: 1;
+}
+
+.quote-box {
+    display: flex;
+    flex: 1;
+}
+
+.bottom-sign-up {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+}
