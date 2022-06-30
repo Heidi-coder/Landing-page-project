@@ -75,6 +75,21 @@ button {
 .info-box {
     display: flex;
     flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.item {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-box {
@@ -92,8 +107,9 @@ button {
 }
 
 .info-box img {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 200px;
+    object-fit: cover;
 }
 
 .top-sign-up img {
