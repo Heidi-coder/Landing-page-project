@@ -2,6 +2,8 @@
 
 This is a project focused on getting really good at layout!
 
+Disclaimer: The business Renew Nature Getaway is a fictional business made up for this project.
+
 Image credits:
 
 Woman hiking: @sarame287 at Freeimages.com
