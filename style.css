@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
     padding: 0;
     font-family: Verdana, Arial, sans-serif;
 }
@@ -60,7 +61,7 @@ a {
     gap: 10px;
 }
 
-button {
+.left-content button {
     width: 100px;
     height: 30px;
     background-color: #3882f6;
@@ -142,6 +143,39 @@ p {
 .bottom-sign-up {
     display: flex;
     flex: 1;
+    padding: 125px 200px;
+}
+
+.blue {
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    border-radius: 10px;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.blue .text {
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+.blue button {
+    border-width: 1px;
+    border-color: #f9faf8;
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
 }
 
 .footer {
@@ -152,6 +186,7 @@ p {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .top-sign-up img {
