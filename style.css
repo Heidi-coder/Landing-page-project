@@ -121,7 +121,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     gap: 20px;
